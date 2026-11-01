@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay's Tournament</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #1a1a2e;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            padding: 20px 10px;
+        }
+
+        .app-container {
+            width: 100%;
+            max-width: 400px;
+            background-color: #16213e;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #0f3460;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            color: #e94560;
+            font-size: 24px;
+        }
+
+        .card {
+            background-color: #0f3460;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #ff9f43;
+            margin-bottom: 10px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .btn-join {
+            width: 100%;
+            background-color: #e94560;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .btn-join:hover {
+            background-color: #ff6b81;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Ajay's Tournament</h1>
+        </div>
+
+        <!-- Upcoming Match Card -->
+        <div class="card">
+            <h3>Upcoming Match</h3>
+            <div class="info-row">
+                <span>Game:</span>
+                <strong>Free Fire</strong>
+            </div>
+            <div class="info-row">
+                <span>Entry Fee:</span>
+                <strong>₹5</strong>
+            </div>
+            <div class="info-row">
+                <span>Prize Pool:</span>
+                <strong>₹50</strong>
+            </div>
+            <div class="info-row">
+                <span>Map:</span>
+                <strong>Bermuda</strong>
+            </div>
+            <button class="btn-join">Join Match</button>
+        </div>
+    </div>
+
+</body>
+</html>
